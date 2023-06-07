@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tic Tac Toe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <script src='index.js'></script>
+</head>
+<body>
+    <div id="header">
+        <div id="score-board">
+            <div class="player-board">
+                <p class="player-box">Player One</p>
+                <p id="player-one-score">0</p>
+            </div>
+            <div class="player-board">
+                <p class="player-box">Player Two</p>
+                <p id="player-two-score">0</p>
+            </div>
+        </div>
+    </div>
+    <div id="body">
+            <div class="row">
+                <div class="box border-br " id="tile-0">
+                    <!-- <p class="text-x">X</p> -->
+                </div>
+                <div class="box border-br " id="tile-1">
+                    <!-- <p class="text-x">O</p> -->
+
+                </div>
+                <div class="box border-b " id="tile-2"></div>
+            </div>
+            <div class="row">
+                <div class="box border-br " id="tile-3"></div>
+                <div class="box border-br " id="tile-4"></div>
+                <div class="box border-b " id="tile-5"></div>
+            </div>
+            <div class="row">
+                <div class="box border-r " id="tile-6"></div>
+                <div class="box border-r " id="tile-7"></div>
+                <div class="box  " id="tile-8"> </div>
+            </div>
+    </div>
+    <div id="footer">
+        <div id="reset-box">
+            <div class="text-reset">RESET</div>
+        </div>
+    </div>
+</body>
+</html>
